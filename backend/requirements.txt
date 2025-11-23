@@ -1,0 +1,12 @@
+# Dependências mínimas para o backend
+# Ajuste versões conforme sua necessidade de deploy
+Django>=5.2,<6
+djangorestframework
+djangorestframework-simplejwt
+django-cors-headers
+python-dotenv
+Pillow
+
+# (opcionais / úteis em produção)
+# gunicorn
+# psycopg2-binary  # quando usar PostgreSQL
